@@ -13,17 +13,17 @@ $GLOBALS['TCA']['tt_content']['columns']['CType']['config']['items'][] = array(
 );
 
 $GLOBALS['TCA']['tt_content']['types']['beautyofcode_contentrenderer']['showitem'] = '
---palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xml:palette.general;general,
---palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.header;header,
---div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.plugin,
-pi_flexform,
-bodytext;LLL:EXT:beautyofcode/Resources/Private/Language/locallang_db.xlf:code,
---div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
---palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,
---div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.access,
---palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.visibility;visibility,
---palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.access;access,
---div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.extended
+    --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xml:palette.general;general,
+    --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.header;header,
+    --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.plugin,
+        pi_flexform,
+        bodytext;LLL:EXT:beautyofcode/Resources/Private/Language/locallang_db.xlf:code,
+    --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
+        --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,
+    --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.access,
+        --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.visibility;visibility,
+        --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.access;access,
+    --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.extended
 ';
 
 $configuration = $GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf']['beautyofcode'];

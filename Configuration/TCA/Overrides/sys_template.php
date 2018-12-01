@@ -5,7 +5,6 @@ if (!defined('TYPO3_MODE')) {
 }
 
 call_user_func(function () {
-
     $packageKey = 'beautyofcode';
 
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
